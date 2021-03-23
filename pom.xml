@@ -223,12 +223,12 @@
 			</dependency>
 
 			<!-- For connecting to oracle -->
-			<!-- <dependency> <groupId>com.oracle.database.jdbc</groupId> <artifactId>ojdbc8</artifactId> 
+			<!-- <dependency> <groupId>com.oracle.database.jdbc</groupId> <artifactId>ojdbc8</artifactId>
 				<version>${oracle.version}</version> </dependency> -->
 
 
 			<!-- For connecting to postgresql -->
-			<!-- <dependency> <groupId>org.postgresql</groupId> <artifactId>postgresql</artifactId> 
+			<!-- <dependency> <groupId>org.postgresql</groupId> <artifactId>postgresql</artifactId>
 				<version>${postgresql.version}</version> <scope>runtime</scope> </dependency> -->
 
 
@@ -419,13 +419,13 @@
 
 	<!--general dependencies -->
 	<dependencies>
-	
+
 		<!-- sm-search -->
 		<dependency>
 			<groupId>com.shopizer</groupId>
 			<artifactId>sm-search</artifactId>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>javax.inject</groupId>
 			<artifactId>javax.inject</artifactId>
@@ -503,11 +503,11 @@
 		</dependency>
 
 		<!-- oracle -->
-		<!-- <dependency> <groupId>com.oracle</groupId> <artifactId>ojdbc8</artifactId> 
+		<!-- <dependency> <groupId>com.oracle</groupId> <artifactId>ojdbc8</artifactId>
 			<version>${oracle.version}</version> </dependency> -->
 
 
-		<!-- postgres <dependency> <groupId>org.postgresql</groupId> <artifactId>postgresql</artifactId> 
+		<!-- postgres <dependency> <groupId>org.postgresql</groupId> <artifactId>postgresql</artifactId>
 			</dependency> -->
 
 
@@ -612,8 +612,8 @@
 				</executions>
 			</plugin>
 			<!--OSSRH -->
-			
-			<!-- 			
+
+			<!--
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
@@ -626,7 +626,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-gpg-plugin</artifactId>
@@ -640,7 +640,7 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin> 
+			</plugin>
 			-->
 
 		</plugins>
